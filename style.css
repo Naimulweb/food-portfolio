@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    background-color: rgb(233, 124, 52);
+    height: 55px;
+}
+.navBar li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 20px;
+    padding-top: 10px;
+   
+}
+.navBar li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+#home-menu{
+    border: 1px solid white;
+    border-radius: 17px;
+    padding: 0px 8px;
+}
+#home-menu:hover{
+    color: gray;
+    background-color:rgb(226, 154, 110);
+    font-size: 18px;
+}
+section{
+    height: 600px;
+}
+.home img{
+    width: 80%;
+    height: 15%;
+}
+
+.half-side{
+    width: 42%;
+    margin:3%;
+    margin-bottom: 0;
+    float: left;
+    padding: 2px;
+}
+.written-part {
+    margin-top: 150px;
+}
+.written-part span{
+    color: rgba(251, 162, 79, 1) ;
+}
+.written-part h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.written-part p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left; 
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(89deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    display: flex;
+    font-weight: 700;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    left: 50px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 50px;
+
+}
+#download-cv{
+    left: 700px;
+}
+.about{
+    background-color: rgba(252, 143, 73, 0.1);
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.about img{ 
+    width: 345px;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+ .written-part h2, p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.recipies{
+    height: 200px;
+    width: 50%;
+    margin: 20px 28%;
+    text-align: center;
+    color: gray;
+}
+.recipies h2{
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.one-thirdArea{
+    width: 33%;
+    display: inline-block;
+    margin-left: 2%;
+    padding:15px 0px 15px 15px;
+    height: 500px;
+}
+.one-thirdArea h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.border-shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 30%;
+    border-radius: 20px;
+    background-color: white;
+}
+.one-thirdArea img{
+    width: 95%;
+    padding-bottom: 20px;
+   
+}
+.social-media{
+    height: 200px;
+    width: 95%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-right: 40px;
+}
+.social-media div{
+    margin-top: 60px;
+}
+.network {
+    background-color: rgba(11, 13, 23, 1);
+    height: 200px;
+    color: gray;
+    margin-top: 50px;
+    
+}
+.network div{
+    padding-top: 50px ;
+    justify-content: center;
+    text-align: center;
+}
+.network span{
+    color: rgb(233, 124, 52) ;
+}
+.network h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px; 
+}
+
